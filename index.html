@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LinkTribio · Demo (Vercel/GitHub Pages)</title>
+<style>
+  :root{--accent:#22c55e}
+  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;background:#0b1220;color:#e6edf3;margin:0}
+  .wrap{max-width:720px;margin:0 auto;padding:24px}
+  .card{background:#0f172a;border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:24px}
+  .row{display:flex;gap:16px;align-items:flex-start;flex-wrap:wrap}
+  .avatar{width:96px;height:96px;border-radius:50%;object-fit:cover;border:4px solid rgba(255,255,255,.1)}
+  h1{margin:0 0 4px 0;font-size:28px}
+  p{margin:0 0 8px 0;color:#c7d2fe}
+  .chips{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}
+  .chip{padding:6px 10px;border-radius:999px;font-size:12px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.08)}
+  .btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 16px;border-radius:12px;border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.06);text-decoration:none;color:inherit;font-weight:600;margin:4px 6px 0 0}
+  .btn-wa{background:var(--accent);color:#04210f;border-color:transparent}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin-top:12px}
+  .cover{width:100%;height:160px;object-fit:cover;border-radius:12px;margin-bottom:16px;display:none}
+  .qr{width:144px;height:144px;border-radius:12px;border:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.04);padding:8px}
+  .muted{color:#94a3b8;font-size:12px}
+  footer{margin:16px 0;text-align:center;color:#94a3b8;font-size:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="card">
+    <img id="cover" class="cover" alt="cover">
+    <div class="row">
+      <img id="avatar" class="avatar" alt="avatar">
+      <div style="flex:1 1 auto">
+        <h1 id="nombre">—</h1>
+        <p id="bio">—</p>
+        <div id="chips" class="chips"></div>
+      </div>
+    </div>
+    <div style="margin-top:12px">
+      <a id="cta-wa" class="btn btn-wa" target="_blank" rel="noopener">💬 Escribime por WhatsApp</a>
+    </div>
+    <div id="botones" class="grid"></div>
+    <div id="dest-wrap" style="margin-top:18px;display:none">
+      <h3 style="margin:0 0 4px 0">Destacados</h3>
+      <p class="muted">Elegí y escribime directo por WhatsApp.</p>
+      <div id="dest" class="grid"></div>
+    </div>
+    <div id="qr-wrap" style="margin-top:18px;display:none">
+      <h3 style="margin:0 0 4px 0">QR para local/tarjeta</h3>
+      <img id="qr-wa" class="qr" alt="QR WhatsApp">
+    </div>
+  </div>
+  <footer>Demo hosting · Usá <code>?c=clarisa</code> o <code>?c=panaderiajulio</code></footer>
+</div>
+
+<script>
+const $ = (id)=>document.getElementById(id);
+function getSlug(){ const qp=new URLSearchParams(location.search); return (qp.get('c')||'clarisa').toLowerCase(); }
+function waLink(num,msg){ const n=String(num||'').replace(/[^\d]/g,''); const t=encodeURIComponent(msg||''); return n?`https://wa.me/${n}?text=${t}`:''; }
+function qrLink(url){ return `https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=${encodeURIComponent(url)}`; }
+async function main(){
+  const res = await fetch('clientes.json', {cache:'no-store'});
+  const all = await res.json();
+  const data = all[getSlug()];
+  if(!data){ alert('No existe ese cliente'); return; }
+  if(data.color){ document.documentElement.style.setProperty('--accent', data.color); }
+  if(data.cover_url){ $('cover').src=data.cover_url; $('cover').style.display='block'; }
+  $('avatar').src = data.avatar_url || 'https://avatars.githubusercontent.com/u/9919?v=4';
+  $('nombre').textContent = data.nombre || 'Tu Marca';
+  $('bio').textContent    = data.bio || '';
+  const chips=$('chips'); (data.chips||[]).forEach(t=>{ const s=document.createElement('span'); s.className='chip'; s.textContent=t; chips.appendChild(s); });
+  const wa=waLink(data.wa_numero,data.wa_mensaje);
+  if(wa){ $('cta-wa').href=wa; $('qr-wrap').style.display='block'; $('qr-wa').src=qrLink(wa); } else { $('cta-wa').style.display='none'; }
+  const botones=$('botones');
+  function addBtn(label,url){ if(!url) return; const a=document.createElement('a'); a.className='btn'; a.href=url; a.target='_blank'; a.rel='noopener'; a.textContent=label; botones.appendChild(a); }
+  addBtn('📸 Instagram', data.instagram);
+  addBtn('📅 Reservar', data.calendario);
+  addBtn('💳 Pagar ahora', data.pago);
+  const destWrap=$('dest-wrap'), dest=$('dest'); 
+  (data.destacados||[]).forEach(({titulo,precio,msg})=>{
+    const a=document.createElement('a'); a.className='btn'; a.target='_blank'; a.rel='noopener';
+    a.href=wa?waLink(data.wa_numero,msg||titulo||'Hola'):'#'; a.textContent=precio?`${titulo} – ${precio}`:(titulo||'Consultar');
+    dest.appendChild(a);
+  });
+  if((data.destacados||[]).length && wa){ destWrap.style.display='block'; }
+}
+main();
+</script>
+</body>
+</html>
