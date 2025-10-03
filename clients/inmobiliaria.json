@@ -1,0 +1,35 @@
+{
+  "slug": "inmobiliaria",
+  "title": "Nova Propiedades",
+  "subtitle": "Alquileres y ventas",
+  "tags": [
+    "Inmobiliaria",
+    "Tasaciones"
+  ],
+  "whatsapp": "+5491133344455",
+  "instagram": "https://instagram.com/novaprop",
+  "avatar": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=200&auto=format&fit=crop",
+  "highlights": [
+    {
+      "icon": "phone",
+      "title": "Tasación sin cargo",
+      "cta": "Pedir",
+      "wa_text": "Hola, quiero tasación"
+    }
+  ],
+  "links": [
+    {
+      "icon": "site",
+      "label": "Listado de propiedades",
+      "url": "https://example.com/props"
+    },
+    {
+      "icon": "map",
+      "label": "Oficina",
+      "url": "https://maps.google.com"
+    }
+  ],
+  "theme": {
+    "accent": "#10b981"
+  }
+}

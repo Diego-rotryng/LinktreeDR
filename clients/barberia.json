@@ -1,0 +1,42 @@
+{
+  "slug": "barberia",
+  "title": "Barbería San Martín",
+  "subtitle": "Cortes · Afeitado clásico",
+  "tags": [
+    "Barbería",
+    "Turnos"
+  ],
+  "whatsapp": "+5491144455566",
+  "instagram": "https://instagram.com/barberia.sm",
+  "reserve": "https://cal.com/example/barberia",
+  "avatar": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=200&auto=format&fit=crop",
+  "highlights": [
+    {
+      "icon": "calendar",
+      "title": "Corte + Barba — $12.000",
+      "price": "$12.000",
+      "cta": "Reservar"
+    },
+    {
+      "icon": "calendar",
+      "title": "Corte niño — $7.000",
+      "price": "$7.000",
+      "cta": "Reservar"
+    }
+  ],
+  "links": [
+    {
+      "icon": "site",
+      "label": "Sitio",
+      "url": "https://example.com"
+    },
+    {
+      "icon": "map",
+      "label": "Cómo llegar",
+      "url": "https://maps.google.com"
+    }
+  ],
+  "theme": {
+    "accent": "#3b82f6"
+  }
+}

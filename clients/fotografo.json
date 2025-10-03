@@ -1,0 +1,37 @@
+{
+  "slug": "fotografo",
+  "title": "Ana Torres",
+  "subtitle": "Fotógrafa Freelance",
+  "tags": [
+    "Eventos",
+    "Retratos"
+  ],
+  "whatsapp": "+5491166677788",
+  "instagram": "https://instagram.com/anatorresphoto",
+  "reserve": "https://cal.com/example/ana",
+  "avatar": "https://images.unsplash.com/photo-1544006659-f0b21884ce1d?q=80&w=200&auto=format&fit=crop",
+  "highlights": [
+    {
+      "icon": "calendar",
+      "title": "Mini sesión 45’ — $25.000",
+      "price": "$25.000",
+      "cta": "Elegir"
+    }
+  ],
+  "links": [
+    {
+      "icon": "site",
+      "label": "Portfolio",
+      "url": "https://example.com"
+    },
+    {
+      "icon": "map",
+      "label": "Ubicación",
+      "url": "https://maps.google.com"
+    }
+  ],
+  "notes": "Entrego 20 fotos editadas",
+  "theme": {
+    "accent": "#a855f7"
+  }
+}

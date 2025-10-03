@@ -1,0 +1,43 @@
+{
+  "slug": "panaderiajulio",
+  "title": "Panadería Julio",
+  "subtitle": "Pan artesanal · Envíos a domicilio",
+  "tags": [
+    "Panadería",
+    "Delivery"
+  ],
+  "whatsapp": "+5491122233344",
+  "instagram": "https://instagram.com/panaderia.julio",
+  "pay": "https://mpago.li/5D6E7F",
+  "avatar": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=200&auto=format&fit=crop",
+  "highlights": [
+    {
+      "icon": "menu",
+      "title": "Pizza Mozzarella — $5.000",
+      "price": "$5.000",
+      "cta": "Elegir"
+    },
+    {
+      "icon": "menu",
+      "title": "Empanadas (6u) — $4.000",
+      "price": "$4.000",
+      "cta": "Elegir"
+    }
+  ],
+  "links": [
+    {
+      "icon": "map",
+      "label": "Google Maps",
+      "url": "https://maps.google.com"
+    },
+    {
+      "icon": "file",
+      "label": "Menú PDF",
+      "url": "https://example.com/menu.pdf"
+    }
+  ],
+  "notes": "Horarios: lun–sáb 8–20h",
+  "theme": {
+    "accent": "#f59e0b"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "gimnasio",
+  "title": "Fuerza Gym",
+  "subtitle": "Musculación · Funcional",
+  "tags": [
+    "Gimnasio",
+    "Clases"
+  ],
+  "whatsapp": "+5491144400000",
+  "instagram": "https://instagram.com/fuerzagym",
+  "avatar": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=200&auto=format&fit=crop",
+  "highlights": [
+    {
+      "icon": "cart",
+      "title": "Plan mensual — $20.000",
+      "cta": "Asociarme"
+    },
+    {
+      "icon": "cart",
+      "title": "Pase diario — $2.500",
+      "cta": "Comprar"
+    }
+  ],
+  "links": [
+    {
+      "icon": "map",
+      "label": "Ubicación",
+      "url": "https://maps.google.com"
+    },
+    {
+      "icon": "site",
+      "label": "Clases",
+      "url": "https://example.com/classes"
+    }
+  ],
+  "theme": {
+    "accent": "#eab308"
+  }
+}

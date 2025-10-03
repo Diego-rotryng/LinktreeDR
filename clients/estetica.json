@@ -1,0 +1,35 @@
+{
+  "slug": "estetica",
+  "title": "Glow Studio",
+  "subtitle": "Peluquería & Color",
+  "tags": [
+    "Cortes",
+    "Colorimetría"
+  ],
+  "whatsapp": "+5491188899977",
+  "instagram": "https://instagram.com/glowstudio",
+  "reserve": "https://cal.com/example/glow",
+  "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=200&auto=format&fit=crop",
+  "highlights": [
+    {
+      "icon": "calendar",
+      "title": "Color + Brushing — $22.000",
+      "cta": "Reservar"
+    }
+  ],
+  "links": [
+    {
+      "icon": "map",
+      "label": "Mapa",
+      "url": "https://maps.google.com"
+    },
+    {
+      "icon": "cart",
+      "label": "Tienda",
+      "url": "https://example.com/tienda"
+    }
+  ],
+  "theme": {
+    "accent": "#f472b6"
+  }
+}

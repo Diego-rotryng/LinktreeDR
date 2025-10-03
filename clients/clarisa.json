@@ -1,0 +1,51 @@
+{
+  "slug": "clarisa",
+  "title": "Clarisa Rozenbaum",
+  "subtitle": "Psicóloga & Coach · Sesiones online",
+  "tags": [
+    "Psicología",
+    "Coaching"
+  ],
+  "whatsapp": "+5491130011122",
+  "instagram": "https://instagram.com/clarisa.roz",
+  "reserve": "https://cal.com/example/clarisa",
+  "pay": "https://mpago.li/2A1B2C3",
+  "avatar": "https://i.pravatar.cc/200?img=47",
+  "highlights": [
+    {
+      "icon": "calendar",
+      "title": "Sesión 45’ — $18.000",
+      "price": "$18.000",
+      "cta": "Pedir turno",
+      "wa_text": "Quiero sesión 45’"
+    },
+    {
+      "icon": "calendar",
+      "title": "Sesión Express 25’ — $10.000",
+      "price": "$10.000",
+      "cta": "Pedir turno",
+      "wa_text": "Quiero sesión express"
+    }
+  ],
+  "links": [
+    {
+      "icon": "site",
+      "label": "Sitio",
+      "url": "https://einstech.com.ar"
+    },
+    {
+      "icon": "tiktok",
+      "label": "TikTok",
+      "url": "https://tiktok.com/@clarisa"
+    },
+    {
+      "icon": "map",
+      "label": "Mapa",
+      "url": "https://maps.google.com"
+    }
+  ],
+  "notes": "Atiendo de lun a vie · Online",
+  "theme": {
+    "accent": "#22c55e"
+  }
+}

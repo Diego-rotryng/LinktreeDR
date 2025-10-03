@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "clarisa",
+    "title": "Clarisa Rozenbaum",
+    "whatsapp": "+5491130011122"
+  },
+  {
+    "slug": "panaderiajulio",
+    "title": "Panadería Julio",
+    "whatsapp": "+5491122233344"
+  },
+  {
+    "slug": "fotografo",
+    "title": "Ana Torres",
+    "whatsapp": "+5491166677788"
+  },
+  {
+    "slug": "barberia",
+    "title": "Barbería San Martín",
+    "whatsapp": "+5491144455566"
+  },
+  {
+    "slug": "inmobiliaria",
+    "title": "Nova Propiedades",
+    "whatsapp": "+5491133344455"
+  },
+  {
+    "slug": "abogado",
+    "title": "Estudio Jurídico MB",
+    "whatsapp": "+5491177788899"
+  },
+  {
+    "slug": "nutricionista",
+    "title": "Lic. Sofía Peretti",
+    "whatsapp": "+5491161122233"
+  },
+  {
+    "slug": "gimnasio",
+    "title": "Fuerza Gym",
+    "whatsapp": "+5491144400000"
+  },
+  {
+    "slug": "estetica",
+    "title": "Glow Studio",
+    "whatsapp": "+5491188899977"
+  },
+  {
+    "slug": "electricista",
+    "title": "Sergio Electricidad",
+    "whatsapp": "+5491166660000"
+  }
+]
