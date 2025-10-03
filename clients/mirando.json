@@ -1,0 +1,34 @@
+{
+  "name": "Hernán Pauletti",
+  "subtitle": "Mirando Lejos · Coaching & Consultoría",
+  "tags": ["Coaching", "Consultoría"],
+  "bio": "\"Si sucede, conviene\"",
+  "phone": "+5491135908140",
+  "whatsapp": "5491135908140",
+  "image": "hernan.jpg",
+  "links": [
+    {
+      "label": "🌐 Sitio Web",
+      "url": "https://mirandolejos.com.ar/"
+    },
+    {
+      "label": "📞 Llamar",
+      "url": "tel:+5491135908140"
+    },
+    {
+      "label": "📩 WhatsApp",
+      "url": "https://wa.me/5491135908140"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "Sesión de Coaching 60’",
+      "price": "$20.000"
+    },
+    {
+      "title": "Sesión Express 30’",
+      "price": "$12.000"
+    }
+  ],
+  "footer": "Más de 30 años de experiencia acompañando personas y organizaciones."
+}
