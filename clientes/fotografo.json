@@ -1,0 +1,18 @@
+{
+  "nombre": "Ana Torres",
+  "profesion": "Fotógrafa Freelance",
+  "tags": [
+    "Eventos",
+    "Retratos"
+  ],
+  "avatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxMjggMTI4Jz4KPGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSdnJyB4MT0nMCcgeDI9JzEnPjxzdG9wIHN0b3AtY29sb3I9JyMzMzQxNTUnLz48c3RvcCBvZmZzZXQ9JzEnIHN0b3AtY29sb3I9JyMwZjE3MmEnLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz4KPHJlY3Qgd2lkdGg9JzEyOCcgaGVpZ2h0PScxMjgnIGZpbGw9J3VybCgjZyknLz4KPGNpcmNsZSBjeD0nNjQnIGN5PSc0Nicgcj0nMjYnIGZpbGw9JyNlMmU4ZjAnLz4KPHJlY3QgeD0nMjAnIHk9JzgwJyB3aWR0aD0nODgnIGhlaWdodD0nNDAnIHJ4PScyMCcgZmlsbD0nI2UyZThmMCcvPgo8L3N2Zz4=",
+  "wa_numero": "5491177777777",
+  "wa_mensaje": "Hola Ana, quiero cotizar una sesión de fotos.",
+  "instagram": "https://instagram.com/ana.demo",
+  "destacados": [
+    {
+      "titulo": "Mini sesión 45'",
+      "precio": "25000"
+    }
+  ]
+}
