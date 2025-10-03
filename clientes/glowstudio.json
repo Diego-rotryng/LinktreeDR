@@ -1,0 +1,27 @@
+{
+  "alias": "glowstudio",
+  "nombre": "Glow Studio",
+  "subtitulo": "Peluquería & Color",
+  "avatar": "img/pelu.jpg",
+  "tags": [
+    "Cortes",
+    "Colorimetría"
+  ],
+  "whatsapp": "+54 9 11 4444-2222",
+  "whatsappMsg": "¡Hola Glow! Quiero turno ✂️",
+  "instagram": "https://instagram.com/glow",
+  "reservar": "https://cal.com/demo",
+  "enlaces": [
+    {
+      "emoji": "📍",
+      "titulo": "Mapa",
+      "url": "https://maps.google.com"
+    },
+    {
+      "emoji": "🛒",
+      "titulo": "Tienda",
+      "url": "https://shop.example.com"
+    }
+  ],
+  "nota": "Promos los martes."
+}

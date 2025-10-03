@@ -1,0 +1,41 @@
+{
+  "alias": "panaderiajulio",
+  "nombre": "Panadería Julio",
+  "subtitulo": "Pan artesanal · Envíos a domicilio",
+  "avatar": "img/pan.jpg",
+  "tags": [
+    "Panadería",
+    "Delivery"
+  ],
+  "whatsapp": "+54 9 11 5555-1111",
+  "whatsappMsg": "Hola, quiero pedir Panadería Julio 🍞",
+  "instagram": "https://instagram.com/tu_panaderia",
+  "pagar": "https://mpago.la/demo",
+  "destacados": [
+    {
+      "emoji": "🍕",
+      "titulo": "Pizza Mozzarella",
+      "precio": 5000,
+      "whatsText": "Quiero pedir *Pizza Mozzarella*"
+    },
+    {
+      "emoji": "🥟",
+      "titulo": "Empanadas (6u)",
+      "precio": 4000,
+      "whatsText": "Quiero pedir *Empanadas (6u)*"
+    }
+  ],
+  "enlaces": [
+    {
+      "emoji": "📍",
+      "titulo": "Google Maps",
+      "url": "https://maps.google.com"
+    },
+    {
+      "emoji": "📄",
+      "titulo": "Menú PDF",
+      "url": "https://example.com/menu.pdf"
+    }
+  ],
+  "nota": "Horarios: lun-sáb 8–20h."
+}

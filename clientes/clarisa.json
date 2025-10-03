@@ -1,0 +1,19 @@
+{
+  "alias": "clarisa",
+  "nombre": "Clarisa Rozenbaum",
+  "subtitulo": "Psicóloga & Coach",
+  "avatar": "img/psico.jpg",
+  "tags": [
+    "Psicología",
+    "Coaching"
+  ],
+  "whatsapp": "+54 9 11 6000-0000",
+  "whatsappMsg": "Hola, necesito info",
+  "enlaces": [
+    {
+      "emoji": "🔗",
+      "titulo": "Sitio",
+      "url": "https://example.com"
+    }
+  ]
+}

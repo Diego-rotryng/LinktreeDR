@@ -1,0 +1,62 @@
+[
+  {
+    "alias": "panaderiajulio",
+    "nombre": "Panadería Julio",
+    "rubro": "Pan artesanal · Envíos a domicilio",
+    "avatar": "img/pan.jpg"
+  },
+  {
+    "alias": "glowstudio",
+    "nombre": "Glow Studio",
+    "rubro": "Peluquería & Color",
+    "avatar": "img/pelu.jpg"
+  },
+  {
+    "alias": "clarisa",
+    "nombre": "Clarisa Rozenbaum",
+    "rubro": "Psicóloga & Coach",
+    "avatar": "img/psico.jpg"
+  },
+  {
+    "alias": "fotografo",
+    "nombre": "Ana Torres",
+    "rubro": "Fotógrafa Freelance",
+    "avatar": "img/foto.jpg"
+  },
+  {
+    "alias": "nutricion",
+    "nombre": "Nutri Vero",
+    "rubro": "Nutricionista",
+    "avatar": "img/nutri.jpg"
+  },
+  {
+    "alias": "abogado",
+    "nombre": "Estudio Sáenz",
+    "rubro": "Abogado Laboral",
+    "avatar": "img/abog.jpg"
+  },
+  {
+    "alias": "trainer",
+    "nombre": "Max Trainer",
+    "rubro": "Personal Trainer",
+    "avatar": "img/train.jpg"
+  },
+  {
+    "alias": "yoga",
+    "nombre": "Respira Yoga",
+    "rubro": "Clases · Grupal e individual",
+    "avatar": "img/yoga.jpg"
+  },
+  {
+    "alias": "dentista",
+    "nombre": "Consultorio Smile",
+    "rubro": "Odontología Integral",
+    "avatar": "img/dent.jpg"
+  },
+  {
+    "alias": "barberia",
+    "nombre": "Barber Bros",
+    "rubro": "Barbería · Afeitado clásico",
+    "avatar": "img/barb.jpg"
+  }
+]
